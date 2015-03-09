@@ -26,7 +26,7 @@ title: 吴冉波的简介
                 </div>
             </div>
             <div>
-                <p>语言 : 普通话 C C++ 英语 java javascript bash python php </p>
+                <p>语言 : 普通话 C C++ 英语 ruby python javascript go java bash scala lua </p>
             </div>
             <div class='clearfix' style="margin-bottom:30px;">
                 <p  style="padding-right:10px" >更多:</p>
