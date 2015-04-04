@@ -180,13 +180,12 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
   .index-content .section ul { width:85%; }
   .index-content .cate-bar { width:85%; }
   .index-content .artical-cate { margin-top:50px; }
-
   .blog .aside,
   .misc .aside,
   .profile .aside {display:none;background-image:none;}
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1020px){
   #menuIndex {display:none;}
   .home-menu { position:absolute; }
   .index-content .section { margin-left:0; margin-right:0; padding-right:0; }
@@ -198,8 +197,13 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
   .entry {float:none;width:auto;background:transparent;padding:0;box-shadow:none;}
   #content {width:85%;margin:100px auto 50px; }
 }
-@media (max-width: 1500px){
+@media (max-width: 1300px){
   .home-menu { position:absolute; }
+  .index-content .section { margin-left:0; margin-right:0; padding-right:0; }
+  .index-content .cate-bar ,
+  .index-content .artical-list,
+  .index-content .artical-cate { width:85%; }
+  .index-content .rightside { display:none; margin-left:0%;};
 }
 /******css绘制按钮*******/
 .backtotop {
