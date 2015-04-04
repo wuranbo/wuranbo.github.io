@@ -38,10 +38,7 @@ title: 吴冉波的简介
                         style="text-align:center;margin-left:20px;"><img
                         src="http://img3.douban.com/pics/douban-icons/favicon_32x32.png" alt=""
                         width="31"/></a>
-                    <a href="http://gitcafe.com/monomaniar" target="_blank"
-                        style="text-align:center;margin-left:20px"><img src="http://wuranbo.me/img/gitcafe.jpg" alt=""
-                        width="31"/></a>
-                    <a href="http://github.com/monomaniar" target="_blank"
+                    <a href="http://github.com/wuranbo" target="_blank"
                         style="text-align:center;margin-left:20px"><img src="http://wuranbo.me/img/github.ico" alt=""
                         width="31"/></a>
                     <a href="http://cn.linkedin.com/pub/吴-冉波/33/862/534"
@@ -59,7 +56,7 @@ title: 吴冉波的简介
     href="http://beiyuu.com">BeiYuu</a>的<a
     href="http://beiyuu.com/github-pages/">教程</a>和<a
     href="https://github.com/beiyuu/beiyuu.github.io">模板</a>上修改的，也已在github(<a
-                                                                                     href="https://github.com/monomaniar/monomaniar.github.io">这里</a>)上,喜欢的同学请任意使用.
+                                                                                     href="https://github.com/wuranbo/wuranbo.github.io">这里</a>)上,喜欢的同学请任意使用.
     </div>
     <div height="1px" style="position:relative;margin-bottom:30px;">
     </div>
