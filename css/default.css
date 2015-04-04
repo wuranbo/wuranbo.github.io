@@ -107,7 +107,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 }
 
 
-.index-content .section { margin-right:30%; padding-top:80px; padding-right:5%; ;}
+.index-content .section { margin-right:30%; padding-top:100px; padding-right:5%; ;}
 
 .index-content .artical-list { width:70%; margin:0 auto; }
 .index-content .artical-list li { margin-bottom:70px; }
@@ -186,7 +186,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
   .profile .aside {display:none;background-image:none;}
 }
 
-@media (max-width: 1020px){
+@media (max-width: 1300px){
   #menuIndex {display:none;}
   .home-menu { position:absolute; }
   .index-content .section { margin-left:0; margin-right:0; padding-right:0; }
@@ -198,7 +198,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
   .entry {float:none;width:auto;background:transparent;padding:0;box-shadow:none;}
   #content {width:85%;margin:100px auto 50px; }
 }
-@media (max-width: 1300px){
+@media (max-width: 1500px){
   .home-menu { position:absolute; }
 }
 /******css绘制按钮*******/

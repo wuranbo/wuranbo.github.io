@@ -26,18 +26,25 @@
     <body>
         <a class="hide" href="https://plus.google.com/114841670102745565512?rel=author">Google</a>
         <a class="hide" href="https://plus.google.com/114841670102745565512" rel="publisher">Find us on Google+</a>
-        <div class="home-menu">
-            <div class="home-icon-con">
-                <a class="home-menu-icon" href="/">WuRanbo.me</a>
-                <a class="home-follow" href="#" title="Contact WuRanbo">+</a>
+        <div class="home-menu" style="width:100%">
+            <div class="home-icon-con" style="width:10%; float:left;min-width:120px;">
+                <a class="home-menu-icon" href="/">wuranbo.me</a>
             </div>
-            <div class="home-contact">
-                <a href="http://weibo.com/wuranbo/" target="_blank" style="margin-left:-5px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-                <a href="http://github.com/wuranbo" target="_blank" style="text-align:center;"><img src="http://wuranbo.me/img/github-dark-bg.ico" alt="" width="22"/></a>
-                <a href="http://cn.linkedin.com/pub/吴-冉波/33/862/534"
-                    target="_blank" style="text-align:right;"><img
-                    src="/img/linkedin.ico" alt=""
-                    width="22"/></a>
+            <div style="float:left;width:75%;">
+            <div style="
+              {% if page.motto_small %}
+              font-size: 16px;
+              line-height: 20px;
+              padding: 0 0 0 40px;
+              text-algin: right;
+              {% else %}
+              font-size: 22px;
+              line-height: 40px;
+              padding: 0 0 0 40px;
+              {% endif %}}
+              font-style: italic; ">
+            "&nbsp;{% if page.motto %}{{ page.motto }}{% else %}给时光以生命{% endif %}&nbsp;"
+            </div>
             </div>
         </div>
 

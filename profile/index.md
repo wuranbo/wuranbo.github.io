@@ -1,6 +1,7 @@
 ---
 layout: home
 title: 吴冉波的简介
+motto: 前进，前进，前进。
 ---
 
 <div class="index-content profile clearfix">
@@ -9,24 +10,20 @@ title: 吴冉波的简介
         <ul class="artical-cate">
     <li ><a href="/"><span>{{ site.uservar.blog }}</span></a></li>
     <li style="text-align:center"><a href="/misc"><span>{{ site.uservar.misc  }}</span></a></li>
-            <li class="on" style="text-align:right"><a href="/profile"><span>吴冉波</span></a></li>
+            <li class="on" style="text-align:right"><a href="/profile"><span>关于</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
 
         <div class="artical-list" >
             <div class="clearfix" width="100%" height="100%" >
-                <div class="profile-img" style="float:left">
-                    <img src="http://wuranbo.me/img/me.jpg" width="275px" alt="wuranbo's photo by the sea."
+                <div class="profile-img">
+                    <img src="/img/me2.jpg" width="100%" alt="wuranbo's photo by the sea."
                     style="margin-right:20px;margin-bottom:30px"></img>
                 </div>
                 <div style="float:left;">
-                    <p>姓名 : 吴冉波</p>
-                    <p>大学 : 北京邮电大学 > 通信工程系</p>
+                    <p>吴冉波，北邮毕业，最爱的媳妇的最爱的老公。</p>
                 </div>
-            </div>
-            <div>
-                <p>语言 : 普通话 C C++ 英语 ruby python javascript go java bash scala lua </p>
             </div>
             <div class='clearfix' style="margin-bottom:30px;">
                 <p  style="padding-right:10px" >更多:</p>
