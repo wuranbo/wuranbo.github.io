@@ -22,7 +22,7 @@ motto: 前进，前进，前进。
                     style="margin-right:20px;margin-bottom:30px"></img>
                 </div>
                 <div style="float:left;">
-                    <p>吴冉波，北邮毕业，最爱的媳妇的最爱的老公。</p>
+                    <p>吴冉波，最爱的媳妇的最爱的老公。</p>
                 </div>
             </div>
             <div class='clearfix' style="margin-bottom:30px;">
