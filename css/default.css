@@ -149,7 +149,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 #menuIndex li.h1{font-size:14px;font-weight:bold;padding-left:0;margin-bottom:10px;}
 #menuIndex li.h3{padding-left:25px;}
 
-.home-menu { position:fixed; top:15px; left:15px; z-index:5; font-size:0; }
+.home-menu { position:absolute; top:15px; left:15px; z-index:5; font-size:0; }
 .home-menu-icon { line-height:38px; padding:0 8px; display:inline-block; color:#fff; font-size:18px;  background:#000; }
 .home-follow { margin-left:2px; line-height:38px; padding:0 8px; display:inline-block; color:#fff; font-size:18px; background:#000;  }
 .home-menu-icon:hover,
@@ -157,10 +157,18 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 .home-contact { color:#fff; margin-top:2px; background:#000; padding:8px 0 7px; text-align:center; display:none;}
 .home-contact a { width:30px; display:inline-block; }
 .home-contact img { width:18px; }
+body { padding-top: 1px; position: relative; }
+@media screen and (max-width: 480px) {
+  body {font-size: 14px; position: relative; max-width: 480px; margin-left: auto; margin-right: auto; }
+  .home-menu {display: none;}
+  #content {margin-top: 10px;}
+  .index-content .section { padding-top:10px;}
+}
 
 @media screen and (max-width: 750px){
-  body {font-size:14px;}
+  body {font-size: 14px; position: relative; max-width: 750px; margin-left: auto; margin-right: auto; }
   #content {width:85%;margin:100px auto 50px; }
+  .home-menu {display: absolute;}
 
   h2{font-size:20px;}
   h3{font-size:16px;}
@@ -185,7 +193,8 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
   .profile .aside {display:none;background-image:none;}
 }
 
-@media (max-width: 1020px){
+@media (max-width: 1088px){
+  body {position: relative; max-width: 1088px; margin-left: auto; margin-right: auto; }
   #menuIndex {display:none;}
   .home-menu { position:absolute; }
   .index-content .section { margin-left:0; margin-right:0; padding-right:0; }
@@ -197,14 +206,19 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
   .entry {float:none;width:auto;background:transparent;padding:0;box-shadow:none;}
   #content {width:85%;margin:100px auto 50px; }
 }
+
 @media (max-width: 1300px){
+  body {position: relative; max-width: 1088px; margin-left: auto; margin-right: auto; }
   .home-menu { position:absolute; }
   .index-content .section { margin-left:0; margin-right:0; padding-right:0; }
   .index-content .cate-bar ,
   .index-content .artical-list,
   .index-content .artical-cate { width:85%; }
   .index-content .rightside { display:none; margin-left:0%;};
+  #content {width:85%;margin:100px auto 50px; }
 }
+
+
 /******css绘制按钮*******/
 .backtotop {
   display:none;

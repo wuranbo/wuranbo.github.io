@@ -36,7 +36,7 @@ motto: 前进，前进，前进。
                         src="http://img3.douban.com/pics/douban-icons/favicon_32x32.png" alt=""
                         width="31"/></a>
                     <a href="http://github.com/wuranbo" target="_blank"
-                        style="text-align:center;margin-left:20px"><img src="http://wuranbo.me/img/github.ico" alt=""
+                        style="text-align:center;margin-left:20px"><img src="/img/github.ico" alt=""
                         width="31"/></a>
                     <a href="http://cn.linkedin.com/pub/吴-冉波/33/862/534"
                         target="_blank" style="text-align:right;margin-left:20px"><img
