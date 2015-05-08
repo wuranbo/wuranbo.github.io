@@ -28,13 +28,6 @@ motto: 前进，前进，前进。
             <div class='clearfix' style="margin-bottom:30px;">
                 <p  style="padding-right:10px" >更多:</p>
                 <div  style="float:left;margin-left:20px">
-                    <a href="http://weibo.com/wuranbo/" target="_blank"
-                        style="margin-left:-5px;"><img
-                        src="http://www.sinaimg.cn/blog/developer/wiki/LOGO_32x32.png" alt="" width="31"/></a>
-                    <a href="http://www.douban.com/people/D.o.v.e/" target="_blank"
-                        style="text-align:center;margin-left:20px;"><img
-                        src="http://img3.douban.com/pics/douban-icons/favicon_32x32.png" alt=""
-                        width="31"/></a>
                     <a href="http://github.com/wuranbo" target="_blank"
                         style="text-align:center;margin-left:20px"><img src="/img/github.ico" alt=""
                         width="31"/></a>
